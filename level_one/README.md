@@ -1,59 +1,105 @@
-# 🟢 Level 1 – Dev Foundation
+# 🟢 Level 1 – Dev Foundation (✅ Completed)
 
-This marks the beginning of my full-stack journey. My goal in Level 1 was to **build real mini-projects**, learn the fundamentals, and document everything publicly.
+Welcome to my public fullstack learning journey!  
+**Level 1** focused on mastering the **frontend foundation** (React + TailwindCSS) and getting hands-on with **Python scripting** — while building a habit of documenting and sharing every step.
 
 ---
 
 ## 🎯 Level 1 Goals
 
-- ✅ Become confident with **React** + **TailwindCSS**
-- ✅ Understand **Django views & templates**
-- ✅ Build **Python scripts** (scraping and automation)
-- ✅ Practice GitHub flow + write clean READMEs
-- ✅ Share progress on **Reddit** for feedback
+- ✅ Build real-world UIs with **React** + **TailwindCSS**
+- ✅ Learn how to fetch + render data with APIs
+- ✅ Build Python scripts using `requests`, `argparse`, and `BeautifulSoup`
+- ✅ Push everything to GitHub with clean READMEs
+- ✅ Share projects for feedback on **Reddit**
 
 ---
 
-## 🛠️ Projects Completed
+## 📁 Projects Completed
 
-### 1. 📁 [Developer Portfolio Website](#)
-- Built from a wireframe
-- Responsive, dark mode enabled
-- Structured with reusable React components
-- **Tech:** React, TailwindCSS, Vite
+### 1. 🖥️ [Developer Portfolio](./portfolio)
+> A personal portfolio site built with React + TailwindCSS
 
-🧪 Learned:
-- Layout building
-- Tailwind dark mode
-- Grid/flex responsiveness
-- Clean file structure & component thinking
+- Fully responsive layout
+- Dark mode toggle
+- Modular components: Hero, Features, FAQ, etc.
+- Deployed & styled for showcase
 
----
-
-## ⏭️ Coming Next
-
-### 2. 🔁 Quote Generator
-- API-powered random quote app
-- Use of `useEffect` and `.map()`
-- Clean, shareable design for Reddit feedback
+🧠 Learned:
+- Tailwind layouts + dark mode  
+- Component-first React structure  
+- Clean repo setup
 
 ---
 
-## 📌 Learning Milestones Hit
+### 2. 🧠 [Quote Generator](./quote-generator)
+> A simple React app that fetches quotes from an API with animation and theming
 
-- ✅ Built 1 large multi-component React project
-- ✅ Learned Git, GitHub CLI, VS Code extensions
-- ✅ Published structure and updates in public
-- ✅ Practiced Markdown for READMEs
-- ✅ Received feedback on Reddit (WIP)
+- Uses `useEffect` to fetch quotes on load
+- “New Quote” button to trigger API calls
+- Fade-in animation on quote change
+- Responsive, dark mode, minimalist layout
 
----
-
-## 📢 Follow the journey
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Reddit: [/u/yourusername](https://www.reddit.com/u/yourusername)
+🧠 Learned:
+- React hooks (`useState`, `useEffect`)  
+- API integration  
+- Basic animation with Tailwind  
 
 ---
 
-> Level 2 coming soon — Python scripting, Django, and AI integration.
+### 3. 📚 [Book Scraper CLI](./web-scraper)
+> A Python CLI tool to scrape books from `books.toscrape.com`
+
+- Pagination + category scraping
+- Outputs to `.csv` and `.json`
+- Built with `requests`, `BeautifulSoup`, `argparse`, and `tqdm`
+- Fully CLI-ready and modular
+
+🧠 Learned:
+- Web scraping and delay handling  
+- CLI arguments  
+- CSV/JSON output  
+- Packaging Python tools
+
+---
+
+## ✅ Level 1 Milestones Hit
+
+| Skill Area         | Completed? |
+|--------------------|------------|
+| React Components   | ✅          |
+| Tailwind Styling   | ✅          |
+| useEffect & APIs   | ✅          |
+| Python Scripting   | ✅          |
+| CLI Tools          | ✅          |
+| GitHub + READMEs   | ✅          |
+| Public Sharing     | ✅          |
+
+---
+
+## ⏭️ What’s Next: **Level 2 – Fullstack Foundations**
+
+Level 2 will introduce **Django REST Framework, API authentication (TokenAuth or JWT), OpenAI API usage, Python automation scripts**, and real-world integration.
+
+### 🧱 Planned Projects
+
+| Project | Tech Stack | Focus |
+|--------|-------------|--------|
+| AI chatbot | React frontend, Django API backend | Chatbot that uses OpenAi SDK |
+| Summarizer tool | OpenAI + DRF | Summarize texts |
+| Web scraper + REST API | REST API | send URL, get scraped data |
+
+🧠 Goals:
+- requests, dotenv, OpenAI SDK
+- useState, useEffect, axios in React
+- Testing Django APIs in Postman 
+
+---
+
+## 📢 Follow the Journey
+
+- GitHub: [@Bulwark-Inc](https://github.com/Bulwark-Inc)
+- Reddit: [/u/ChemicalWear6153](https://www.reddit.com/u/ChemicalWear6153)
+
+> ✅ Level 1: Complete  
+> 🔜 Level 2: Starting now...

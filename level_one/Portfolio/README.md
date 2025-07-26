@@ -13,7 +13,7 @@ Welcome to my public dev journey! This is a **responsive developer portfolio** b
 
 ![screenshot](https://placehold.co/1200x600?text=Portfolio+Preview)
 
-Live demo coming soon! 🔗
+🌐 Live demo coming soon
 
 ---
 
