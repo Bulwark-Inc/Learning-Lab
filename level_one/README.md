@@ -17,7 +17,7 @@ Welcome to my public fullstack learning journey!
 
 ## 📁 Projects Completed
 
-### 1. 🖥️ [Developer Portfolio](./portfolio)
+### 1. 🖥️ [Developer Portfolio](./Portfolio)
 > A personal portfolio site built with React + TailwindCSS
 
 - Fully responsive layout
@@ -47,7 +47,7 @@ Welcome to my public fullstack learning journey!
 
 ---
 
-### 3. 📚 [Book Scraper CLI](./web-scraper)
+### 3. 📚 [Book Scraper CLI](./web_scraper)
 > A Python CLI tool to scrape books from `books.toscrape.com`
 
 - Pagination + category scraping
