@@ -4,8 +4,5 @@ django-cors-headers==4.7.0
 python-dotenv==1.1.1
 openai==1.97.1
 requests==2.32.4
+beautifulsoup4==4.13.4
 tqdm==4.67.1
-gunicorn
-whitenoise
-dj-database-url
-psycopg2-binary

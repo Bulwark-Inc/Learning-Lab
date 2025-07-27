@@ -72,6 +72,6 @@ A fullstack chatbot with:
 - GitHub: [@Bulwark-Inc](https://github.com/Bulwark-Inc/Learning-Lab/tree/main/level_two)
 - Reddit: [/u/ChemicalWear6153](https://reddit.com/u/ChemicalWear6153)
 
-> Up next: **Level 3 — Auth Systems & App Deployment**
+> Up next: **Level 3 — Fullstack Integration & Showoff Phase**
 
 ---
