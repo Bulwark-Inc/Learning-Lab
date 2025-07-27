@@ -1,70 +1,77 @@
 # 🟡 Level 2 – API Builder & AI Integrator
 
-Welcome to **Level 2** of my dev learning journey!  
-This stage is all about combining **Python APIs**, **AI integration**, and **React frontends** — to build real, connected tools.
+This level focused on building **real-world fullstack tools** with **Django REST API**, **React**, and the **OpenAI API** — combining backend engineering with modern frontend development.
 
 ---
 
-## 🎯 Level 2 Goals
+## 🧠 Core Goals
 
-| Skill | Focus |
-|-------|-------|
-| Django REST | Build APIs, use serializers, views, routers |
-| OpenAI API | Use GPT for chatbot and summarization |
-| React + Axios | Fetch data from custom APIs |
-| Auth | Token or JWT protection for endpoints |
-| Deployment | Push one fullstack project live |
-| Public Sharing | Reddit posts for feedback + learning |
-
----
-
-## 🔨 Projects in Level 2
-
-### 1. 🤖 [AI Chatbot](./ai-chatbot/)
-- React + Django + OpenAI API
-- Chat-style frontend
-- Typing indicator, request throttle, basic authentication
-- Output: “Talk to GPT” UI with working backend
-
-### 2. 📝 [Summarizer API](./summarizer-api/)
-- REST API that takes a block of text → returns a summary
-- Optional React UI
-- Clean response, error-handled, ready to share or integrate
-
-### 3. 🔗 [Scrape-to-API Tool](./scrape-api/)
-- User sends a URL → API returns metadata or structured content
-- Built with `requests` + `BeautifulSoup`
-- Optionally wrapped in a React UI
+| Skill                         | Status ✅ |
+|------------------------------|-----------|
+| Django REST Framework (DRF)  | ✅ Built 3 APIs from scratch  
+| Token-based Auth (DRF)       | ✅ Used TokenAuth for secured access  
+| OpenAI API Integration       | ✅ GPT-powered chatbot + summarizer  
+| React Frontend Integration   | ✅ 3 apps with Tailwind + Axios  
+| Deployment-Ready Projects    | ✅ Render & Vercel configured  
+| Public Sharing               | ✅ Reddit posts + GitHub docs  
 
 ---
 
-## ✅ Level 2 Milestones
+## 🔨 Projects Built
 
-| Milestone | Complete? |
-|----------|-----------|
-| Build Django API | ⬜ |
-| Connect OpenAI API | ⬜ |
-| Add React frontend | ⬜ |
-| Deploy to Render/Vercel | ⬜ |
-| Post on Reddit | ⬜ |
-| Teach in a comment/post | ⬜ |
+### 1. 🤖 [AI Chatbot](./ai-chatbot)
+A fullstack chatbot with:
+- Django DRF backend + Token Auth
+- OpenAI GPT response generation
+- React + Tailwind UI
+- Secure `.env` and deploy-ready
 
----
-
-## ⏭️ Current Focus
-
-We’re starting with the **AI Chatbot**:
-- [ ] Scaffold Django backend
-- [ ] Scaffold React frontend
-- [ ] Add OpenAI integration
-- [ ] Add simple auth
-- [ ] Share working MVP
+🧪 Skills: Auth, OpenAI SDK, Chat UX, API request handling
 
 ---
 
-## 🌐 Follow Progress
+### 2. 📝 [GPT Summarizer Tool](./summarizer)
+- Paste long text → get a **concise summary**
+- Toggle between **bullet points or paragraph**
+- Clean UI, dark mode, animations
+- Uses OpenAI + DRF as backend API
 
-- GitHub: [@Bulwark-Inc](https://github.com/Bulwark-Inc)
-- Reddit: [/u/ChemicalWear6153](https://www.reddit.com/u/ChemicalWear6153)
+🧪 Skills: Text parsing, UI toggles, prompt formatting
 
-> Level 2 is focused, fast, and all about connected tools. Follow along!
+---
+
+### 3. 🌐 [Web Scraper API](./scraper-api)
+- Send a URL → receive title & links in JSON
+- Optional `limit` param
+- React frontend to test it live
+- Built with Django, BeautifulSoup & DRF
+
+🧪 Skills: Web scraping, input validation, JSON parsing
+
+---
+
+## 🧰 Tools Mastered
+
+- `Django`, `DRF`, `TokenAuth`, `dotenv`
+- `React`, `TailwindCSS`, `Axios`
+- `OpenAI SDK`, `requests`, `BeautifulSoup`
+- `Postman`, `.env`, `Render`, `Vercel`
+
+---
+
+## 📸 Progress Highlights
+
+- 3 fullstack projects completed
+- Reddit posts written for feedback
+- GitHub repo structured cleanly for others to follow
+
+---
+
+## 📢 Follow the Journey
+
+- GitHub: [@Bulwark-Inc](https://github.com/Bulwark-Inc/Learning-Lab/tree/main/level_two)
+- Reddit: [/u/ChemicalWear6153](https://reddit.com/u/ChemicalWear6153)
+
+> Up next: **Level 3 — Auth Systems & App Deployment**
+
+---
