@@ -3,7 +3,7 @@ import axios from 'axios'
 import Header from './components/Header'
 import ResponseBox from './components/ResponseBox'
 
-axios.defaults.baseURL = import.meta.env.VITE_API_BASE
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
 
 function App() {
   const [text, setText] = useState("")
