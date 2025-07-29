@@ -1,52 +1,78 @@
-# 🟠 Level 3 – Fullstack Integration & Showoff Phase
+# 🔵 Level 3 – Fullstack Integration & Showoff Phase
 
-This level is all about **building deploy-ready, polished apps** that show off what I've learned so far — with a focus on architecture, UI/UX polish, and full app lifecycle.
-
----
-
-## 🎯 Focus Areas
-
-| Skill Area                     | Goal                               |
-|-------------------------------|------------------------------------|
-| 🔧 Architecture               | Clean frontend/backend separation |
-| 🎨 UX                         | Better loading states, error UI   |
-| 🔐 Permissions/Auth           | DRF permissions, secure endpoints |
-| 📤 Deployment                 | Host static frontend + DRF backend |
-| 🔍 GitHub Polish              | Clear folder structure, commits    |
+This level focused on building polished, freelance-quality fullstack apps using **Django REST Framework**, **React**, and real-world UI/UX features like charts, CSV export, auth, and OpenAI integration.
 
 ---
 
-## 🔨 Projects Planned
+## 🎯 Core Outcomes
 
-### 1. ✍️ GPT Writing Assistant
-- Text input → AI-enhanced rewrite/summarization
-- Local history tracking (in-memory or localStorage)
-- Fullstack: React frontend + Django API
-
-### 2. 💼 Simple SaaS UI w/ Backend Logic
-- Paste input → get AI or logic-based output
-- Example: grammar fixer, email formatter, etc.
-- UI simulates “SaaS-like” flow
-
-### 3. 📊 Dashboard for Scraped or AI Data
-- Django backend to collect/serve structured data
-- Frontend dashboard: tables, charts, insights
-- Could use DRF pagination, chart libs
+| Skill                                   | Status ✅ |
+|----------------------------------------|----------|
+| Django + DRF API with pagination/filtering | ✅ Used extensively across 3 projects |
+| React + TailwindCSS UIs               | ✅ Clean, minimalist dashboards |
+| Auth Systems                           | ✅ JWT login with protected routes |
+| AI Integration                         | ✅ Used OpenAI in 2 projects |
+| Data Visualization                     | ✅ Recharts + Chart.js in dashboard |
+| Deployment                             | ✅ Hosted with Vercel + Render |
+| Reddit Sharing                         | ✅ Posted for feedback on r/webdev, r/django |
 
 ---
 
-## 📈 Level Up Requirements
+## 🧱 Projects Built
 
-- ✅ 1 deployed fullstack app (Render + Vercel or unified deployment)
-- ✅ 1 Reddit post gets good engagement (10+ karma or quality feedback)
-- ✅ 1 inbound DM / collab / discussion
-- ✅ Clean commit history showing progression
+### 1. ✍️ [GPT Writing Assistant](./gpt-writing-assistant)
+- Rewrite or summarize text with GPT-4
+- Secure proxy backend (Django + OpenAI)
+- React UI with fade-in animations + dark mode
+
+🧪 Skills: API proxying, OpenAI SDK, smooth UX, Vite config
 
 ---
 
-## 📢 Sharing My Work
+### 2. 🧠 [Resume Bullet Improver](./resume-improver)
+- Paste a resume bullet → Get an improved version
+- Tailor content to job descriptions with GPT
+- Score and preview experience sections
 
-- GitHub: [@Bulwark-Inc](https://github.com/Bulwark-Inc)
+🧪 Skills: Prompt engineering, scoring logic, section builder, OpenAI tuning
+
+---
+
+### 3. 📊 [Scraped Data Dashboard](./dashboard-app)
+- Visualize scraped or AI-enriched data
+- JWT auth, protected API endpoints
+- Dark mode, filtering, CSV export, and charts
+
+🧪 Skills: JWT auth (SimpleJWT), Chart.js, Axios auth flow, CORS config
+
+---
+
+## 🧰 Tools Mastered
+
+- Django, Django REST Framework, JWT Auth
+- React, TailwindCSS, Chart.js, Axios
+- OpenAI API, dotenv, Vite, React Router
+- Render.com (backend), Vercel (frontend)
+
+---
+
+## 📸 Portfolio Preview
+
+| ✅ | Milestone                        |
+|----|----------------------------------|
+| 🔗 | GitHub repos per project         |
+| 🌐 | Live demos deployed              |
+| 💬 | Reddit posts written & karma earned |
+| 🧼 | Clean folder structure & readmes |
+| 🧠 | Reflected on build after each one |
+
+---
+
+## 📢 Follow the Journey
+
+- GitHub: [@Bulwark-Inc](https://github.com/Bulwark-Inc/Learning-Lab/tree/main/level_three)
 - Reddit: [/u/ChemicalWear6153](https://reddit.com/u/ChemicalWear6153)
 
-> Time to polish, post, and grow. Let’s ship some fullstack apps 🚀
+> ✅ Level 3 Complete — moving on to **Level 4: Freelance Launch Pad** 🚀
+
+---
